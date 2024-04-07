@@ -1,4 +1,5 @@
 <template>
+  <h2>Person2</h2>
   <div class="person">
     <h2>姓名：{{ name }}</h2>
     <h2>年龄：{{ age }}</h2>
