@@ -1,20 +1,11 @@
 <template>
-  <ToRefsEg/>
-  <hr>
-  <ReactiveEg/>
-  <hr>
-  <RefEg/>
-  <hr>
+  <h2>APP</h2>
 </template>
 
 <script lang="ts">
-  import RefEg from '@/components/RefEg.vue'
-  import ReactiveEg from '@/components/ReactiveEg.vue'
-  import ToRefsEg from '@/components/ToRefsEg.vue'
-
   export default {
     name:'App',
-    components:{RefEg, ReactiveEg, ToRefsEg}
+    components:{}
   }
 </script>
 
