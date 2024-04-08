@@ -1,15 +1,25 @@
 <template>
-  <Person/>
+  <ToRefsEg/>
   <hr>
-  <Person2/>
+  <ReactiveEg/>
+  <hr>
+  <RefEg/>
+  <hr>
 </template>
 
 <script lang="ts">
-  import Person from './components/Person.vue'
-  import Person2 from './components/Person2.vue'
+  import RefEg from '@/components/RefEg.vue'
+  import ReactiveEg from '@/components/ReactiveEg.vue'
+  import ToRefsEg from '@/components/ToRefsEg.vue'
 
   export default {
     name:'App',
-    components:{Person, Person2}
+    components:{RefEg, ReactiveEg, ToRefsEg}
   }
 </script>
+
+<style scoped>
+  hr {
+    border: 2px red dashed;
+  }
+</style>
