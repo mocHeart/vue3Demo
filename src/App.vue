@@ -1,12 +1,10 @@
 <template>
-  <Count/>
-  <br>
-  <LoveTalk/>
+  <div>
+    <h2>APP</h2>
+  </div>
 </template>
 
 <script lang="ts" setup>
-  import Count from './components/Count.vue'
-  import LoveTalk from './components/LoveTalk.vue'
 </script>
 
 <style scoped>
